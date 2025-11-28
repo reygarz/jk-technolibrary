@@ -53,13 +53,13 @@ const Home: React.FC<HomeProps> = ({ theme, settings }) => {
                 <h1 className={`animate-fade-in-up text-5xl md:text-8xl font-extralight tracking-tighter mb-8 leading-tight ${
                     theme === AppTheme.VISION_GLASS || theme === AppTheme.TRUE_CALM ? "text-gray-900" : "text-white"
                 }`}>
-                    JK Techno<span className={theme === AppTheme.LIQUID_NEON ? "text-cyan-400 font-normal" : "font-normal"}>Library</span>
+                    Мамонтов<span className={theme === AppTheme.LIQUID_NEON ? "text-cyan-400 font-normal" : "font-normal"}> А.А</span>
                 </h1>
                 
                 <p className={`animate-fade-in-up max-w-2xl text-lg md:text-xl font-light leading-relaxed mb-12 ${
                     theme === AppTheme.VISION_GLASS || theme === AppTheme.TRUE_CALM ? "text-gray-600" : "text-gray-400"
                 }`}>
-                    Универсальная вычислительная платформа для инженеров нового поколения. 
+                    Лабораторная работа по Информатике. 
                     Синтез математического моделирования, нативной компиляции и 
                     академической базы знаний.
                 </p>
