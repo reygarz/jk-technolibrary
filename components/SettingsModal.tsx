@@ -109,7 +109,7 @@ const SettingsModal: React.FC<SettingsModalProps> = ({ isOpen, onClose, theme, s
 
         {/* Footer */}
         <div className="p-4 bg-current/5 text-center text-xs opacity-40 font-mono">
-            JK TechnoLibrary v5.0 Build 2025
+            © 2025 Mamontov Inc. Build 2025
         </div>
 
       </div>
