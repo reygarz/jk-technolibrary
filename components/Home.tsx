@@ -47,7 +47,7 @@ const Home: React.FC<HomeProps> = ({ theme, settings }) => {
                     theme === AppTheme.VISION_GLASS ? "border-gray-300 bg-white/50 text-gray-600" :
                     "border-white/10 bg-white/5 text-gray-400"
                 }`}>
-                    <Sparkles size={10} /> System V5.1 Operational
+                    <Sparkles size={10} /> Мамонтов Арсений Алексеевич / 5375
                 </div>
                 
                 <h1 className={`animate-fade-in-up text-5xl md:text-8xl font-extralight tracking-tighter mb-8 leading-tight ${
@@ -118,7 +118,7 @@ const Home: React.FC<HomeProps> = ({ theme, settings }) => {
             
             {/* Footer */}
             <div className="w-full max-w-5xl border-t border-current/5 pt-8 flex flex-col md:flex-row justify-between items-center opacity-40 text-xs font-mono">
-                <p>© 2025 JK Laboratory Inc.</p>
+                <p>© 2025 Mamontov Inc.</p>
                 <p>System Status: Optimal</p>
             </div>
         </div>
